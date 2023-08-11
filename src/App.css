@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.animation {
+  height: 100vh;
+  background: #20222b;
+  width: 100vw;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+.second {
+  height: 90vh;
+}
+.third {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.inner-third-app {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.third-animation {
+  height: 100%;
+  background-color: #20222b;
+  z-index: -1;
+}
+.four {
+  padding-top: 20px;
+
+  /*  max-height: 300vh; */
+}
+.five {
+  position: relative;
+  height: 40vh;
+  z-index: 1;
+}
+
+.inner-footer-app {
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-animation {
+  background-color: #20222b;
+  z-index: -1;
+  height: 40vh;
+}
+
+
+.six{
+  height: 1000px;
+  background-color: beige;
+}
